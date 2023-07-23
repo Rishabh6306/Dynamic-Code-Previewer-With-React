@@ -115,7 +115,7 @@ const CodeEditor = () => {
         </div>
       ))}
 
-      <div className="box">
+      <div className="box last">
         <div className="heading-and-button">
           <div className="heading">Live Preview</div>
           <div id="buttons">

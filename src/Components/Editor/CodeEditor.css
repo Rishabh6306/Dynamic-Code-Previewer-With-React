@@ -65,3 +65,17 @@ iframe {
     border: none;
     background-color: white;
 }
+
+@media screen and (max-width: 1020px){
+    #buttons {
+        position: relative;
+        bottom: 1px;
+        margin: 10px 0;
+        display: flex;
+    }
+    .btn {
+        margin: 0 2px;
+        padding: 10px 15px;
+    }
+    
+}
