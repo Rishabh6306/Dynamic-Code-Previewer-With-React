@@ -1,7 +1,23 @@
+/* BackgroundColorPicker.css */
 .color-picker-icon {
     background-color: white;
-    width: 28px;
+    width: 25px;
     height: 25px;
     border-radius: 7px;
     cursor: pointer;
+}
+
+.color-picker-container {
+    position: relative;
+    left: 15px;
+    overflow: visible;
+}
+
+
+@media screen and (max-width: 550px) {
+    .color-picker-icon {
+        width: 25px;
+        height: 15px;
+    }
+
 }

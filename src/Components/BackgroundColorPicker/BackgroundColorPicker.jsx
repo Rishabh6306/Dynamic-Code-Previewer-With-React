@@ -4,7 +4,7 @@ import './BackgroundColorPicker.css'
 
 const BackgroundColorPicker = ({ bgColor, onColorChange, showColorPicker, onColorPickerClick }) => {
   return (
-    <div>
+    <div className="color-picker-container"> {/* Add the .color-picker-container class here */}
       <div
         className="color-picker-icon"
         onClick={onColorPickerClick}

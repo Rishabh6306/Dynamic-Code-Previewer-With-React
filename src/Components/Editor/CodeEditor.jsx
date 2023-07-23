@@ -83,7 +83,7 @@ const CodeEditor = () => {
         <div className="box" key={type}>
           <div className="heading">
             {type.toUpperCase()}
-            <BackgroundColorPicker
+          <BackgroundColorPicker
               bgColor={type === 'html' ? htmlBgColor : type === 'css' ? cssBgColor : jsBgColor}
               onColorChange={(color) => handleColorChange(type, color)}
               showColorPicker={
@@ -91,6 +91,7 @@ const CodeEditor = () => {
               }
               onColorPickerClick={() => handleColorPickerClick(type)}
             />
+            
           </div>
           <textarea
             id={`${type}Frame`}
@@ -115,7 +116,7 @@ const CodeEditor = () => {
         </div>
       ))}
 
-      <div className="box last">
+      <div className="box">
         <div className="heading-and-button">
           <div className="heading">Live Preview</div>
           <div id="buttons">

@@ -21,6 +21,7 @@ textarea {
     color: white;
     font-size: 22px;
     padding: 10px;
+    overflow-y: scroll;
 }
 
 .heading {
@@ -64,6 +65,7 @@ iframe {
     height: calc(100% - 40px);
     border: none;
     background-color: white;
+    overflow-y: scroll;
 }
 
 @media screen and (max-width: 1020px){
