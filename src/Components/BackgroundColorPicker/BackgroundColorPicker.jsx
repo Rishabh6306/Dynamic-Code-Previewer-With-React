@@ -1,5 +1,6 @@
 import React from 'react';
 import { SketchPicker } from 'react-color';
+import './BackgroundColorPicker.css'
 
 const BackgroundColorPicker = ({ bgColor, onColorChange, showColorPicker, onColorPickerClick }) => {
   return (

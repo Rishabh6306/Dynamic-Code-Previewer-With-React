@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
-import { SketchPicker } from 'react-color';
+// import { SketchPicker } from 'react-color';
+import './CodeEditor.css'
 import BackgroundColorPicker from '../BackgroundColorPicker/BackgroundColorPicker';
 
 const CodeEditor = () => {
@@ -74,12 +75,6 @@ const CodeEditor = () => {
   const handleClearClick = () => {
     const iframe = document.getElementById('output');
     iframe.contentDocument.body.innerHTML = '';
-  };
-
-  // Function to handle textarea input and update line numbers
-  const handleTextAreaInput = (e, ref) => {
-    const lines = e.target.value.split('\n');
-    ref.current.style.setProperty('--num-lines', lines.length);
   };
 
   return (
